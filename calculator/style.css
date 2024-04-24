@@ -1,0 +1,26 @@
+.main{
+    background-color: black;
+    border-radius: 15px;
+    width: 30%;
+padding:10px;}
+button{
+   width: 36px;
+   padding: 5px;
+    border-radius: 100px;
+    border: none;
+}
+.btn1{
+    background-color: rgb(153, 152, 152);
+    color: black;
+}
+.btn2{
+    background-color: orangered;
+    color: white;
+}
+.btn3{
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
+#ze{
+    width: 100px;
+}

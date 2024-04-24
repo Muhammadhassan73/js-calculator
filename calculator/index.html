@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>Calculator</h1>
+<div class="main">
+    <input type="text" id="inp">
+    <br><br>
+    <div class="btn">
+<button class="btn1" onclick="clr()">C</button>
+<button class="btn1" onclick="num('+')">+</button>
+<button class="btn1" onclick="num('-')">-</button>
+<button class="btn2" onclick="num('/')">/</button>
+    </div>
+    <br>
+    <div class="btn">
+<button class="btn3" onclick="num(7)">7</button>
+<button class="btn3" onclick="num(8)">8</button>
+<button class="btn3" onclick="num(9)">9</button>
+<button class="btn2" onclick="num('*')">X</button>
+    </div>
+    <br>
+    <div class="btn">
+<button class="btn3" onclick="num(4)">4</button>
+<button class="btn3" onclick="num(5)">5</button>
+<button class="btn3" onclick="num(6)">6</button>
+<button class="btn2" onclick="num('-')">-</button>
+    </div>
+    <br>
+    <div class="btn">
+<button class="btn3" onclick="num(1)">1</button>
+<button class="btn3" onclick="num(2)">2</button>
+<button class="btn3" onclick="num(3)">3</button>
+<button class="btn2" onclick="num('+')">+</button>
+    </div>
+    <br>
+    <div class="btn">
+<button class="btn3" id="ze" onclick="num(0)">0</button>
+<button class="btn3" onclick="num('.')">.</button>
+<button class="btn2" onclick="cal()">=</button>
+    </div>
+</div>
+
+    </center>
+
+    <script src="app.js"></script>
+</body>
+</html>
